@@ -25,16 +25,14 @@ The model uses the `DistilBertForSequenceClassification` from Hugging Face's tra
 
 To set up this project locally, you can follow these steps:
 
-bash
-git clone https://github.com/your-github-username/humor-detection-distilbert
-cd humor-detection-distilbert
-pip install -r requirements.txt
+git clone https://github.com/your-github-username/humor-detection-distilbert <br>
+cd humor-detection-distilbert<br>
+pip install -r requirements.txt<br>
 
 
 ## Usage
 
 To run the model on your data, execute:
 
-python
 python classify_humor.py
 
