@@ -21,6 +21,22 @@ The model uses the `DistilBertForSequenceClassification` from Hugging Face's tra
 - **Evaluation**: Detailed performance analysis using accuracy, precision, recall, and F1-score metrics.
 - **Visualization**: Training and validation progress visualizations, alongside word clouds and sentiment analysis for deeper insights into dataset characteristics.
 
+## How to Run the Code
+
+### Running the Code in Google Colab
+You can easily run the code in Google Colab with the following steps:
+1. **Open in Colab**: Navigate to the `OutlierDetection.ipynb` notebook in this repository. You will find an "Open in Colab" button at the top of the notebook. Click this button to open the notebook directly in Google Colab.
+2. **Running the Notebook**: Once the notebook is open in Google Colab, you can execute the code:
+    - Run all cells in sequence by clicking on `Runtime` in the menu bar, then selecting `Run all`.
+    - Alternatively, run each cell individually by clicking the play button on the left side of each code cell.
+    - 
+### Running Locally
+If you prefer to run the notebook locally:
+1. **Download the Notebook**: Click on `OutlierDetection.ipynb` in the GitHub repository and download it by clicking on `Raw`, then right-clicking and choosing "Save as" to download the file to your local machine.
+2. **Upload to Colab**: Go to [Google Colab](https://colab.research.google.com/), and select `Upload notebook` from the `File` menu to upload the downloaded `.ipynb` file.
+3. **Run the Notebook**: Follow the same steps as above to run the notebook cells sequentially or individually.
+
+
 ## Installation
 
 To set up this project locally, you can follow these steps:
@@ -35,4 +51,6 @@ pip install -r requirements.txt<br>
 To run the model on your data, execute:
 
 python classify_humor.py
+
+
 
