@@ -36,21 +36,3 @@ If you prefer to run the notebook locally:
 2. **Upload to Colab**: Go to [Google Colab](https://colab.research.google.com/), and select `Upload notebook` from the `File` menu to upload the downloaded `.ipynb` file.
 3. **Run the Notebook**: Follow the same steps as above to run the notebook cells sequentially or individually.
 
-
-## Installation
-
-To set up this project locally, you can follow these steps:
-
-`git clone https://github.com/your-github-username/humor-detection-distilbert` <br>
-`cd humor-detection-distilbert`<br>
-`pip install -r requirements.txt`<br>
-
-
-## Usage
-
-To run the model on your data, execute:
-
-`python classify_humor.py`
-
-
-
