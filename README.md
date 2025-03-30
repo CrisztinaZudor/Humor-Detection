@@ -21,3 +21,20 @@ The model uses the `DistilBertForSequenceClassification` from Hugging Face's tra
 - **Evaluation**: Detailed performance analysis using accuracy, precision, recall, and F1-score metrics.
 - **Visualization**: Training and validation progress visualizations, alongside word clouds and sentiment analysis for deeper insights into dataset characteristics.
 
+## Installation
+
+To set up this project locally, you can follow these steps:
+
+bash
+git clone https://github.com/your-github-username/humor-detection-distilbert
+cd humor-detection-distilbert
+pip install -r requirements.txt
+
+
+## Usage
+
+To run the model on your data, execute:
+
+python
+python classify_humor.py
+
