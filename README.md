@@ -4,7 +4,7 @@ Humor detection in text represents a fascinating challenge at the intersection o
 
 ## Project Description
 
-This project utilizes the DistilBERT model, a streamlined version of the BERT transformer, to classify short texts based on their humor content. The model processes a dataset of 200,000 labeled texts, which include both humorous and non-humorous examples, to learn and predict the nuances that differentiate humorous interactions.
+This project utilizes the DistilBERT model, a streamlined version of the BERT transformer, to classify short texts based on their humor content. The model processes a dataset of 200,000 labeled texts, which include both humorous and non-humorous examples, to learn and predict the nuances that differentiate humorous interactions. The model achieved a final loss of 0.1926 and an accuracy of 0.9400, indicating a satisfactory performance in classifying humor in text.
 
 ## Dataset
 
