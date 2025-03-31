@@ -20,16 +20,17 @@ The model uses the `DistilBertForSequenceClassification` from Hugging Face's tra
 - **Training**: Utilization of PyTorch and Hugging Face libraries for model training, with metrics monitoring to prevent overfitting.
 - **Evaluation**: Detailed performance analysis using accuracy, precision, recall, and F1-score metrics.
 - **Visualization**: Training and validation progress visualizations, alongside word clouds and sentiment analysis for deeper insights into dataset characteristics.
-
+- 
 ## How to Run the Code
 
 ### Running the Code in Google Colab
 
 You can easily run the code in Google Colab with the following steps:
 
-1. **Open in Colab**: Navigate to the `HumorDetection.ipynb` notebook in this repository. You will find an "Open in Colab" button at the top of the notebook. Click this button to open the notebook directly in Google Colab.
-2. **Upload the Dataset**: Before running the notebook, upload the `dataset.csv` file to your Colab session using the file upload feature in the sidebar.
-3. **Running the Notebook**: Once the notebook is open in Google Colab, you can execute the code:
+1. **Download the Dataset**: First, download the `dataset.csv` file from [this Kaggle link](https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection).
+2. **Open in Colab**: Navigate to the `HumorDetection.ipynb` notebook in this repository. You will find an "Open in Colab" button at the top of the notebook. Click this button to open the notebook directly in Google Colab.
+3. **Upload the Dataset**: Before running the notebook, upload the `dataset.csv` file to your Colab session using the file upload feature in the sidebar.
+4. **Running the Notebook**: Once the notebook is open in Google Colab, you can execute the code:
    - Run all cells in sequence by clicking on `Runtime` in the menu bar, then selecting `Run all`.
    - Alternatively, run each cell individually by clicking the play button on the left side of each code cell.
 
@@ -38,6 +39,6 @@ You can easily run the code in Google Colab with the following steps:
 If you prefer to run the notebook locally:
 
 1. **Download the Notebook**: Click on `HumorDetection.ipynb` in the GitHub repository and download it by clicking on `Raw`, then right-clicking and choosing "Save as" to download the file to your local machine.
-2. **Download the Dataset**: Ensure you also download the `dataset.csv` from the GitHub repository in a similar manner.
+2. **Download the Dataset**: Ensure you also download the `dataset.csv` from [this Kaggle link](https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection).
 3. **Upload to Colab**: If you choose to run it in Google Colab instead of locally, go to Google Colab, and select `Upload notebook` from the `File` menu to upload the downloaded `.ipynb` file. Remember to also upload the `dataset.csv`.
 4. **Run the Notebook**: Follow the same steps as above to run the notebook cells sequentially or individually, ensuring that the dataset file is in the same directory as the notebook when running it locally.
